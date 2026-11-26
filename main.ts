@@ -4,8 +4,8 @@ import { dirname } from "node:path";
 const OUTPUT_PATH = "/output/entry.txt";
 
 const LINES: readonly [string, string] = [
-  "I am sorry I scoured the seasoning off your cast-iron skillet with steel wool because I read the dark coat as burnt grease.",
-  "I learned that smooth black iron is years of care, not grime, so I will scrub it with salt and hot water, dry it on the burner, and rub in a drop of oil.",
+  "I am sorry I tidied away the river stone wedging your back door open and locked you out on the porch in socks.",
+  "I learned that a heavy rock on a threshold is deliberate, not clutter, so I will sweep around it and check outside before I latch the door.",
 ];
 
 function buildEntry(lines: readonly [string, string]): string {
